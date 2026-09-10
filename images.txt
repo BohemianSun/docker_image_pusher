@@ -1,8 +1,11 @@
 # 支持指定架构
---platform=linux/arm64 node:20-alpine
---platform=linux/arm64 gradle:7.6-jdk8
---platform=linux/arm64 docker:24-cli
---platform=linux/arm64 eclipse-temurin:8-jre
---platform=linux/arm64 nginx:1.26-alpine
-gradle:7.6-jdk8
-eclipse-temurin:8-jre-alpine
+# --platform=linux/arm64 node:20-alpine
+# --platform=linux/arm64 gradle:7.6-jdk8
+# --platform=linux/arm64 docker:24-cli
+# --platform=linux/arm64 eclipse-temurin:8-jre
+# --platform=linux/arm64 nginx:1.26-alpine
+# gradle:7.6-jdk8
+# eclipse-temurin:8-jre-alpine
+docker:24-cli
+node:20-alpine
+nginx:1.26-alpine
