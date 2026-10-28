@@ -6,6 +6,10 @@
 # --platform=linux/arm64 nginx:1.26-alpine
 # gradle:7.6-jdk8
 # eclipse-temurin:8-jre-alpine
-docker:24-cli
-node:20-alpine
-nginx:1.26-alpine
+# docker:24-cli
+# node:20-alpine
+# nginx:1.26-alpine
+maven:3.9-eclipse-temurin-17
+eclipse-temurin:17-jre
+--platform=linux/arm64 maven:3.9-eclipse-temurin-17
+--platform=linux/arm64 eclipse-temurin:17-jre
