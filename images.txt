@@ -14,5 +14,5 @@
 # --platform=linux/arm64 maven:3.9-eclipse-temurin-17
 # --platform=linux/arm64 eclipse-temurin:17-jre
 # OpenJDK 8 JDK
-zulu-openjdk-alpine:8
---platform=linux/arm64 zulu-openjdk-alpine:8
+azul/zulu-openjdk-alpine:8
+--platform=linux/arm64 azul/zulu-openjdk-alpine:8
